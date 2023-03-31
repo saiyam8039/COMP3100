@@ -36,7 +36,7 @@ public class Client {
             String[] jobInfo = str.split(" ");
             jobID = Integer.parseInt(jobInfo[2]);
             
-            sendMsg("OK");
+            sendMsg("K");
             for (int i = 0; i< serverNumber; i++){
             	String[] serverInfo = str.split(" ");
             	if(Integer.parseInt(serverInfo[4] > serverCore){
